@@ -434,6 +434,18 @@ async function handleSave() {
               />
             </div>
 
+            {/* Password recovery link */}
+            <div className="text-right">
+              <a
+                href="/forgot-password"
+                className="text-sm font-medium text-blue-600 hover:underline"
+              >
+                Forgot Password?
+              </a>
+            </div>
+
+            {/* Existing error message and Sign In button remain below */}
+
             {error && (
               <p role="alert" className="text-sm text-red-600">
                 {error}
