@@ -39,3 +39,20 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# TeamDocs local backups
+/src/app/page.backup.txt
+/src/app/page.working.txt
+
+# Playwright testing
+/playwright-report/
+/test-results/
+/playwright/.cache/
+
+# Local editor settings
+.vscode/
+
+# Playwright
+node_modules/
+/blob-report/
+/playwright/.auth/
